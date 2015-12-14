@@ -1,4 +1,4 @@
-var total = parseFloat(/[\d,\.]+/.exec($(($(".cT-valueItem")[0])).text())[0].replace(",",""));
+var total = parseFloat(/[\d,\.]+/.exec($($(".cA-ada-currentBalanceValue")[0]).text())[0].replace(",",""));
 var q = $(".cT-bodyTableColumn2 .cT-line1");
 for (i = 0; i < q.length; i++)
 {
